@@ -1,0 +1,67 @@
+# 🎓 Student Score Prediction API
+
+A machine learning web application that predicts student academic performance based on demographic, behavioral, and academic factors.
+
+Developed by **Binh Pham**  
+Bachelor's in Engineering Technology – San Jose State University  
+
+---
+
+## 🚀 Live Demo
+
+🔗 https://your-render-url.onrender.com
+
+---
+
+## 📌 Project Overview
+
+This project implements a supervised machine learning pipeline to predict student final scores using both numerical and categorical features.
+
+The trained model is:
+
+- Preprocessed using Scikit-learn pipelines
+- Serialized with joblib
+- Containerized using Docker
+- Deployed on Render as a production-ready web service
+- Integrated with a Flask-based public web interface
+
+---
+
+## 🧠 Features Used
+
+### Numerical Features
+- Hours_Studied
+- Attendance
+- Sleep_Hours
+- Previous_Scores
+- Tutoring_Sessions
+- Physical_Activity
+
+### Categorical Features
+- Parental_Involvement
+- Access_to_Resources
+- Extracurricular_Activities
+- Motivation_Level
+- Internet_Access
+- Family_Income
+- School_Type
+- Peer_Influence
+- Learning_Disabilities
+- Gender
+
+---
+
+## 🏗️ Tech Stack
+
+- Python 3.12
+- Scikit-learn
+- Pandas
+- NumPy
+- Flask
+- Gunicorn
+- Docker
+- Render (Cloud Deployment)
+
+---
+
+## 📦 Project Structure
